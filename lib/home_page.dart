@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:utils_for_flutter/launcher/url_launcher_view.dart';
 
 import 'tabs/tab_view.dart';
 
@@ -15,7 +16,8 @@ class HomePage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 24),
           child: Column(
             children: [
-              TabView(),
+              //TabView(),
+              UrlLauncherView(),
             ],
           ),
         ),
